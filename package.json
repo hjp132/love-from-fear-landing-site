@@ -11,6 +11,11 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@pmndrs/branding": "0.0.8",
     "@react-three/drei": "8.10.7",
     "@react-three/fiber": "7.0.26",
@@ -22,7 +27,6 @@
     "react-scripts": "5.0.0",
     "three": "0.138.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
