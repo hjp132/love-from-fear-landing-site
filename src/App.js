@@ -5,28 +5,13 @@ import * as random from 'maath/random/dist/maath-random.esm'
 
 export default function App() {
   return (
-    <Suspense>
       <Canvas camera={{ position: [0, 0, 1] }}>
-        <Logo />
         <Stars />
     </Canvas>
-    </Suspense>
   )
 }
 
-function Logo() {
-  const logoObject = useGLTF('./models/logo1.gltf')
 
-  return (
-    <group>
-      <primitive
-        object={logoObject.scene}
-        scale={0.2}
-        position={ [-2.5, 0, 2.5] }
-        rotation-y={0.3} />
-    </group>
-  )
-}
 
 function Stars(props) {
   const ref = useRef()
